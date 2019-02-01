@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+<title>RPG Turtorial</title>
+
+	</head>
+<body>
+var BootScence = new Phaser.Class({
+	Extends: Phaser.Scence,
+	initialize:
+	function BootScence()
+	{
+		Phaser.Scence.call(this, {key: 'BootScence'});
+	}
+})
